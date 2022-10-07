@@ -23,3 +23,15 @@ You are given an m x n integer grid accounts where accounts[i][j] is the amount 
 A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
 
 The solution is at richest-costumer-wealth.py
+
+## 1342. Number of Steps to Reduce a Number to Zero
+
+Given an integer num, return the number of steps to reduce it to zero. In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+
+The solution is at number-steps-number-zero.py
+
+## 13. Roman to Integer (NOT COMPLETE YET)
+
+Given a roman numeral, convert it to an integer.
+
+The solution is at roman-to-integer.py
