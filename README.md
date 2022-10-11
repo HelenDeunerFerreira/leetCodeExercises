@@ -30,7 +30,7 @@ Given an integer num, return the number of steps to reduce it to zero. In one st
 
 The solution is at number-steps-number-zero.py
 
-## 13. Roman to Integer (NOT COMPLETE YET)
+## 13. Roman to Integer
 
 Given a roman numeral, convert it to an integer.
 
