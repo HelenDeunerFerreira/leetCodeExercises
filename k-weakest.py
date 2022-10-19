@@ -1,23 +1,14 @@
 class Solution:
     def kWeakestRows(self, mat, k):
         rows = []
+        response = []
 
-        for i in mat:
-            ones = 0
-            for j in i:
-                if j == 1:
-                    ones += 1
-            rows.append(ones)
+        for i in range(len(mat)):
+            rows.append([mat[i].count(1), i])
 
-        weak = sorted(rows)
+        rows.sort()
 
-        print(weak[0:k])
+        for i in range(k):
+            response.append(rows[i][1])
 
-
-# A row i is weaker than a row j if one of the following is true:
-# The number of soldiers in row i is less than the number of soldiers in row j.
-# Both rows have the same number of soldiers and i < j.
-# Return the indices of the k weakest rows in the matrix ordered from weakest to strongest.
-
-s = Solution()
-s.kWeakestRows([[1, 0, 0, 0], [1, 1, 1, 1], [1, 0, 0, 0], [1, 0, 0, 0]], 2)
+        return response
