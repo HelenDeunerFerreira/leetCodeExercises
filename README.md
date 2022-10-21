@@ -1,4 +1,4 @@
-# Problems solved in Python3
+# Problems solved in Python and Python3
 
 ## Website Leet Code
 
@@ -61,3 +61,9 @@ The solution is at k-weakest.py
 Given the head of a singly linked list, return the middle node of the linked list. If there are two middle nodes, return the second middle node.
 
 The solution is at middle-linked-list.py
+
+## 1. Two Sum (NOT COMPLETE YET)
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+
+The solution is at two-sum.py
