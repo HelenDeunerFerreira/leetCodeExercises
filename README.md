@@ -67,3 +67,15 @@ The solution is at middle-linked-list.py
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 
 The solution is at two-sum.py
+
+## 2. Add Two Numbers (NOT COMPLETE YET)
+
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+The solution is at add-two-numbers.py
+
+## 219. Contains Duplicate II (NOT COMPLETE YET)
+
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+
+The solution is at contains-duplicate-II.py
