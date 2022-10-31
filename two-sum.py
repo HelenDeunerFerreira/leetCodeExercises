@@ -16,6 +16,7 @@ class Solution(object):
         lookup = {}
         for i, num in enumerate(nums):
             if target - num in lookup:
+                # dificuldade para entender essa parte de dicionários
                 print([lookup[target - num], i])
                 print(lookup[target - num])
                 print(i)
